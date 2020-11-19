@@ -28,7 +28,7 @@ steps:
   inputs:
     azureSubscription: 'test'
     appName: 'AzureCICD'
-    package: $(System.DefaultWorkingDirectory)/**/*.dll 
+    # package: $(System.DefaultWorkingDirectory)/**/*.dll 
 
 
 
