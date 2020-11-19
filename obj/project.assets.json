@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dream\\source\\repos\\AzureCICD\\AzureCICD\\AzureCICD.csproj",
+      "projectUniqueName": "C:\\STUDY\\Azure\\AzureCICD.csproj",
       "projectName": "AzureCICD",
-      "projectPath": "C:\\Users\\dream\\source\\repos\\AzureCICD\\AzureCICD\\AzureCICD.csproj",
+      "projectPath": "C:\\STUDY\\Azure\\AzureCICD.csproj",
       "packagesPath": "C:\\Users\\dream\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dream\\source\\repos\\AzureCICD\\AzureCICD\\obj\\",
+      "outputPath": "C:\\STUDY\\Azure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
