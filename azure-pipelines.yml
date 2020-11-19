@@ -27,7 +27,7 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: test
-    appName: 'AzureCICD'
+    appName: AzureCICD
     # package: $(System.DefaultWorkingDirectory)/**/*.dll 
 
 
