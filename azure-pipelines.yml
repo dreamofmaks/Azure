@@ -24,7 +24,16 @@ steps:
     publishWebProjects: True
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: True
-
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: '<Azure service connection>'
+    appName: '<Name of web app>'
+    package: $(System.DefaultWorkingDirectory)/**/*.zip
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
 
 
 
